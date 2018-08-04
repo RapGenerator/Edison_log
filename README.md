@@ -16,3 +16,7 @@
   
  Output说明:   
 找到源码中BasicRNNCell的call函数实现：这句“return output, output”说明在BasicRNNCell中，output其实和隐状态的值是一样的。因此，我们还需要额外对输出定义新的变换，才能得到图中真正的输出y。由于output和隐状态是一回事，所以在BasicRNNCell中，state\_size永远等于output\_size。
+
+
+8.4:  
+修改Attention的种类和参数，以及查loss下不去的原因。
