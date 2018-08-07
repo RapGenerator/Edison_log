@@ -33,3 +33,5 @@
 8. 最后input的时候大多数用模板（固定的句子长度、格式等）  
 9. seqGAN效果不错（训练方法在论文里有）  
 
+8.7:  
+根据《Topic-to-Essay Generation with Neural Networks》的公式推导给train的代码添加注释。
