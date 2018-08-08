@@ -35,3 +35,6 @@
 
 8.7:  
 根据《Topic-to-Essay Generation with Neural Networks》的公式推导给train的代码添加注释。
+
+8.8:  
+学习了GAN和RL的基础部分，对《SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient》这篇论文有了初步认识。代码跑是可以直接跑，但是还要具体分析代码细节。并且考虑对押韵给予reward来进行RL。
