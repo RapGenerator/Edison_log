@@ -38,3 +38,9 @@
 
 8.8:  
 学习了GAN和RL的基础部分，对《SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient》这篇论文有了初步认识。代码跑是可以直接跑，但是还要具体分析代码细节。并且考虑对押韵给予reward来进行RL。
+
+8.9:  
+基本上弄懂了SeqGAN这篇论文及相关知识，简单对照代码捋了一遍。
+经验：  
+1.一块titan x在原数据集上跑至少7小时  
+2.lr尽量调小
