@@ -64,4 +64,34 @@
 我慢慢不一样  
 现在像所有场面  
 
-150个epoch以上过拟合就很严重了，急需大量数据。
+150个epoch以上过拟合就很严重了。
+
+8.12:  
+1.了解了seq2seq用于文本生成的近几年进展情况.  
+https://zhuanlan.zhihu.com/p/29967933  
+2.读了老师给的新beam-search代码(可以控制句子长度)。  
+3.zzq学长的BiLSTM(不加skip-thought)的生成结果非常好:  
+
+关键词:人工智能 AI 科技 现代
+
+(下面是手动input)
+
+input:	在这人工智能的时代  
+output:	我是我的生活 我知道你是我的girlfriend  
+I got my girl 和我的兄弟  
+I wanna be my girl 做我的朋友  
+
+input:	AI改变生活  
+output:	舒服的白色的光晕 在空中弥漫  
+苟延残喘却不免从容的逃脱  
+别再哭着最初的你  
+
+input:	科技是第一生产力  
+output:	我要Love me like it rain  
+Raf Simons on the sky 让我更无敌  
+监听你肌肤的温度在新开铺  
+
+input:	现代的节奏渐渐加快  
+output:	这城市的人 我的思想被人遗弃  
+那人生苦短 就像无名的对话  
+这一切都被你包围让我变得强大  
