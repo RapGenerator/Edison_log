@@ -95,3 +95,36 @@ input:	现代的节奏渐渐加快
 output:	这城市的人 我的思想被人遗弃  
 那人生苦短 就像无名的对话  
 这一切都被你包围让我变得强大  
+
+8.13:  
+修改BiEncoder的代码，在40个epoch以内将loss基本降到了1.5左右。get到一系列玄学调参技术。  
+
+生成示例： 
+ 
+input：你说你有点难追
+
+output:  
+想闻 着 你 的 手 <EOS> <EOS> <EOS> <EOS> <EOS>
+
+想闻 着 你 的 脸 <EOS> <EOS> <EOS> <EOS> <EOS>
+
+想闻 着 你 的 照片 <EOS> <EOS> <EOS> <EOS> <EOS>
+
+想闻 着 你 的 手   你 的 手 <EOS>
+
+想闻 着 你 的 手   你 的 气息 <EOS>
+
+  
+  
+input：我觉得海星
+
+output：  
+我要 把 你 欺负 <EOS> <EOS>
+
+我要 拿到 大人 的 头发 <EOS>
+
+我要 成魔 成佛 我 <EOS> <EOS>
+
+我要 把 你 放进 鞋柜 <EOS>
+
+我要 拿到 大人 的 手 <EOS>
